@@ -38,7 +38,7 @@ var Countdown = {
     
     var that    = this,
 	$days_1 = this.$.days.eq(0),
-	$days_2 = this.$days.eq(1),
+	$days_2 = this.$.days.eq(1),
         $hour_1 = this.$.hours.eq(0),
         $hour_2 = this.$.hours.eq(1),
         $min_1  = this.$.minutes.eq(0),
