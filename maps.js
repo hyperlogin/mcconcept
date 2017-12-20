@@ -8,17 +8,12 @@ function initialize() {
   };
   var map = new google.maps.Map(document.getElementById("map"), mapProp);
   var infoWindowContent = [
-        ['<div class="info_content">' +
-        '<h3>Boon Keng Branch</h3>' +
-        '<p>The London Eye is a giant Ferris wheel situated on the banks of the River Thames. The entire structure is 135 metres (443 ft) tall and the wheel has a diameter of 120 metres (394 ft).</p>' +        '</div>'],
-        ['<div class="info_content">' +
-        '<h3>Another Branch</h3>' +
-        '<p>The Palace of Westminster is the meeting place of the House of Commons and the House of Lords, the two houses of the Parliament of the United Kingdom. Commonly known as the Houses of Parliament after its tenants.</p>' +
-        '</div>']
+        ['<b><u>MC Concept Mobile,<br>Boon Keng Retail Outlet</u></b><br><br>25 Bendemeer Road<br>#01-603, Singapore 330025<br>(beside MoneyMax)<br>Boon Keng MRT Station Exit B<br><br>Tel: +65 6391 9925'],
+        ['<b><u>MC Concept Mobile,<br>Geylang Retail Outlet</u></b><br><br>198 Geylang Road<br>#02-01, Singapore 389263<br>Lorong 6 Geylang (Main Road)<br><br>Tel: +65 6291 2645 / 6391 9925']
     ];
   var markers = [
-        ['London Eye, London', 1.319135,103.8629299],
-        ['Palace of Westminster, London', 1.3104433,103.8750213]
+        ['Boon Keng (Retail Outlet)', 1.319135,103.8629299],
+        ['Geylang Keng (Retail Outlet)', 1.3104433,103.8750213]
    ];
   
   // Display multiple markers on a map
