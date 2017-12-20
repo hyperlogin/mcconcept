@@ -1,5 +1,6 @@
 var myCenter = new google.maps.LatLng(1.319135,103.8629299);
 function initialize() {
+  var bounds = new google.maps.LatLngBounds();
   var mapProp = {
     center: myCenter,
     zoom: 12,
