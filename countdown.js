@@ -70,7 +70,7 @@ var Countdown = {
 	    }
 
             // Update DOM values
-	    that.checkDays(that.values.days,$days_1,$days_2);
+	    that.checkHour(that.values.days,$days_1,$days_2);
             // Hours
             that.checkHour(that.values.hours, $hour_1, $hour_2);
 
