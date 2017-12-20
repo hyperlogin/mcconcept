@@ -30,6 +30,7 @@ function initialize() {
         bounds.extend(position);
         marker = new google.maps.Marker({
             position: position,
+            animation: google.maps.Animation.DROP,
             map: map,
             title: markers[i][0]
         });
@@ -39,6 +40,7 @@ function initialize() {
             return function() {
                 infoWindow.setContent(infoWindowContent[i][0]);
                 infoWindow.open(map, marker);
+                toggleBounce(marker);
             }
         })(marker, i));
 
@@ -52,7 +54,7 @@ function initialize() {
         google.maps.event.removeListener(boundsListener);
     });
 }
-function toggleBounce() {
+function toggleBounce(marker) {
         if (marker.getAnimation() !== null) {
           marker.setAnimation(null);
         } else {
