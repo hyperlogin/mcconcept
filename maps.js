@@ -18,7 +18,7 @@ function initialize() {
   });
   
   var marker2 = new google.maps.Market({
-    position: {1.3104433,103.8750213},
+    position: {lat:1.3104433,lng:103.8750213},
     animation:google.maps.Animation.DROP
   });
   
