@@ -13,7 +13,7 @@ function initialize() {
     ];
   var markers = [
         ['Boon Keng (Retail Outlet)', 1.319135,103.8629299],
-        ['Geylang Keng (Retail Outlet)', 1.3104433,103.8750213]
+        ['Geylang Keng (Retail Outlet)', 1.3117689,103.874051]
    ];
   
   // Display multiple markers on a map
